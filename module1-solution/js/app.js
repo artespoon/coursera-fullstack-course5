@@ -12,7 +12,7 @@ function LunchCheckerController($scope) {
 	if($scope.items != "") {
         // NOT counting an 'empty' item towards the count of how many items there are in the list.
         // e.g case: item 1, item2,,item3 will be counted as 3 items. 
-	    var listOfItems = $scope.items.split(",").filter(v => v != '');
+	    var listOfItems = $scope.items.split(",").filter(v => v.trim() != '');
 	    if(listOfItems.length <= 0) {
 			$scope.message = msgOnEmptyInput;
 			$scope.state = "error"
