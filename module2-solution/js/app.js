@@ -33,11 +33,11 @@ function ShoppingListCheckOffService() {
       quantity: 10
     },
     { 
-	  name: "bubble gum",
+	  name: "bubble gums",
       quantity: 2
     },
     { 
-	  name: "coca cola",
+	  name: "apples",
       quantity: 3
     },
     { 
@@ -45,7 +45,7 @@ function ShoppingListCheckOffService() {
       quantity: 1
     },
     { 
-	  name: "orange juce",
+	  name: "orange juces",
       quantity: 6
     },
   ];
