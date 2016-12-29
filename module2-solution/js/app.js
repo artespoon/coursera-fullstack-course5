@@ -28,7 +28,7 @@ function ShoppingListCheckOffService() {
   var service = this;
 
   var toBuyItems = [
-	{ name: "cookies", quantity: 10 },
+	  { name: "cookies", quantity: 10 },
     { name: "bubble gums", quantity: 2 },
     { name: "apples", quantity: 3 },
     { name: "bread", quantity: 1 },
