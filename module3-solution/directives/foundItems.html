@@ -1,0 +1,9 @@
+<ol class="list-group">
+  <li class="list-group-item" ng-repeat="item in items">
+    <h4 class="list-group-item-heading">
+      <span >{{ item.name }}, {{ item.short_name }}</span>
+      <button class="btn btn-default pull-right" ng-click="onRemove({index: $index});">Don't want this one!</button>
+    </h4>
+    <p class="list-group-item-text">{{ item.description }}</p>
+  </li>
+</ol>
